@@ -149,7 +149,7 @@ first div in the grid and place it in the grid. */
   background-repeat: no-repeat;
   max-height: 600px;
   width: 100%;
-  overflow: visible;
+  overflow:visible;
 }
 
 
@@ -237,7 +237,7 @@ div.text-block{
 
   .text-block{
     max-height: 250px;
-    overflow: visible;
+    overflow: scroll;
     text-align: center;
     justify-content: center;
     align-content: center;
