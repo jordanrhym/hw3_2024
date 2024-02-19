@@ -126,7 +126,7 @@ nav a:hover, nav a:focus{
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-:focus{
+*:focus{
   border: solid 2px black;
 }
 
@@ -178,28 +178,7 @@ first div in the grid and place it in the grid. */
   grid-column: 2;
 }
 
-.about-image{
-  grid-column: 1 / -1;
-  max-height: 600px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.method-image{
-  grid-column: 1 / -1;
-  max-height: 600px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.clients-image{
-  grid-column: 1 / -1;
-  max-height: 600px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.contact-image{
+.about-image, .method-image, .clients-image, .contact-image{
   grid-column: 1 / -1;
   max-height: 600px;
   width: 100%;
