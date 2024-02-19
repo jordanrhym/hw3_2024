@@ -206,9 +206,12 @@ div.text-block{
     padding-bottom: 30px;
     padding-left: 0px;
   }
-  nav li{
-    display: inline;
+
+  nav ul{
     float: right;
+  }
+  nav li{
+    display: inline-block;
   }
   
   /* Step 10: Write the selector/rule property to update the .container class */
